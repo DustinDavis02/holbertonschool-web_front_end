@@ -1,0 +1,14 @@
+// Assigns margin left and right to body and div tags using a mixin
+@mixin margin-lr($value) {
+    margin-left: $value;
+    margin-right: $value;
+  }
+  
+  body {
+    @include margin-lr(10px);
+  }
+  
+  div {
+    @include margin-lr(15px);
+  }
+  
