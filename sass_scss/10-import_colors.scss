@@ -1,0 +1,14 @@
+// Assigns text colors to .red, .green, .blue classes using colors from 10-colors.scss
+@import '10-colors';
+
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
