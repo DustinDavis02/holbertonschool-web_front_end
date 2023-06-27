@@ -26,3 +26,6 @@ a:focus {
     border-color: #E0003C;
     border-radius: 1rem;
 }
+.text-muted {
+    color: #8C8C8C;
+}
